@@ -1,4 +1,5 @@
 import numpy as np
+import lightgbm
 from azureml.core.run import Run
 from unittest.mock import Mock
 from diabetes_regression.training.train import train_model
